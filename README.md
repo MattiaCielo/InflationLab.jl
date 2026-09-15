@@ -4,7 +4,7 @@
 
 **An evolving toolkit for inflationary cosmology.**
 
-A research and teaching project led by Mattia Cielo, designed to grow into a modular collection of Julia tools for inflationary dynamics and perturbations.
+A research and teaching project designed to grow into a modular collection of Julia tools for inflationary dynamics and perturbations.
 
 ## Development status
 
@@ -17,6 +17,8 @@ This repository currently contains project information and branding only. **The 
 - Ultra-slow-roll dynamics and transitions.
 - Axion–U(1) systems.
 - Floquet analysis and related early-universe tools.
+- Simple stochastic-inflation models.
+- Primordial-black-hole formation: introductory calculations and diagnostics.
 
 These are development directions, not currently released capabilities.
 
