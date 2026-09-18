@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>InflationLab — Tools for inflationary cosmology</title>
+  <meta name="description" content="An open, evolving laboratory for numerical inflationary cosmology, perturbations, and reproducible research.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <style>
+    :root{--ink:#101735;--muted:#5b6380;--violet:#55259a;--blue:#1768b5;--line:#e7e9f2;--bg:#fbfcff}
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:inherit;text-decoration:none}.wrap{max-width:1120px;margin:auto;padding:0 28px}
+    header{padding:24px 0;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line)}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:760;letter-spacing:-.02em}.brand img{width:42px;height:42px;object-fit:contain}
+    nav{display:flex;gap:24px;color:var(--muted);font-size:14px}nav a:hover{color:var(--violet)}
+    .hero{padding:92px 0 82px;display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
+    .eyebrow{color:var(--violet);font-weight:700;letter-spacing:.13em;text-transform:uppercase;font-size:12px}
+    h1{font-size:clamp(44px,7vw,76px);line-height:1.02;letter-spacing:-.065em;margin:18px 0 24px;max-width:720px}
+    .gradient{background:linear-gradient(105deg,var(--violet),#3f45a7,var(--blue));-webkit-background-clip:text;background-clip:text;color:transparent}
+    .lede{font-size:21px;line-height:1.5;color:var(--muted);max-width:650px}
+    .actions{display:flex;gap:14px;margin-top:32px;flex-wrap:wrap}.button{padding:12px 18px;border-radius:9px;border:1px solid var(--line);font-weight:650;background:#fff}.button.primary{background:var(--ink);color:#fff;border-color:var(--ink)}
+    .mark{background:#fff;border:1px solid var(--line);border-radius:24px;padding:34px;box-shadow:0 20px 70px rgba(28,36,85,.1)}.mark img{width:100%;height:auto}
+    section{padding:68px 0;border-top:1px solid var(--line)}h2{font-size:32px;letter-spacing:-.04em;margin:0 0 12px} .section-lede{color:var(--muted);max-width:650px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:23px}.card h3{margin:0 0 8px;font-size:18px}.card p{margin:0;color:var(--muted);font-size:15px}
+    .status{display:inline-flex;align-items:center;gap:8px;color:var(--muted);font-size:14px}.dot{width:8px;height:8px;border-radius:50%;background:#d19b31}
+    footer{padding:34px 0 52px;color:var(--muted);font-size:14px;display:flex;justify-content:space-between;gap:20px}
+    @media(max-width:760px){nav{display:none}.hero{grid-template-columns:1fr;padding:60px 0}.grid{grid-template-columns:1fr}footer{display:block}.mark{padding:20px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header><a class="brand" href="#"><img src="InflationLab-logo-v1.png" alt="InflationLab logo"><span>InflationLab</span></a><nav><a href="#tools">Tools</a><a href="#learn">Learn</a><a href="#status">Status</a><a href="https://github.com/MattiaCielo/InflationLab.jl">GitHub ↗</a></nav></header>
+    <main>
+      <section class="hero"><div><div class="eyebrow">Open research project</div><h1>Tools for <span class="gradient">inflationary cosmology.</span></h1><p class="lede">A growing laboratory for numerical dynamics, primordial perturbations, and reproducible early-Universe research.</p><div class="actions"><a class="button primary" href="https://github.com/MattiaCielo/InflationLab.jl">View on GitHub ↗</a><a class="button" href="#learn">Explore the project</a></div></div><div class="mark"><img src="InflationLab-logo-v1.png" alt="InflationLab expanding-wave logo"></div></section>
+      <section id="tools"><h2>A modular scientific toolkit</h2><p class="section-lede">The project is designed to keep equations, numerical assumptions, extracted arrays, and visual diagnostics easy to inspect.</p><div class="grid"><article class="card"><h3>Inflationary dynamics</h3><p>Background evolution, single-field models, axion–gauge systems, and ultra-slow-roll transitions.</p></article><article class="card"><h3>Perturbations</h3><p>Linear modes, tensor production, Floquet diagnostics, and transparent spectrum calculations.</p></article><article class="card"><h3>Early-Universe signals</h3><p>Primordial black holes, magnetogenesis, gravitational waves, and related cosmological observables.</p></article></div></section>
+      <section id="learn"><h2>Learn by reproducing</h2><p class="section-lede">Julia and Python notebooks will accompany the code, with Mathematica scripts for analytic checks and theory-first derivations.</p><div class="grid"><article class="card"><h3>For students</h3><p>Small, explicit examples that connect equations to numerical solutions and plots.</p></article><article class="card"><h3>For researchers</h3><p>Benchmark reproductions, documented conventions, and reusable analysis workflows.</p></article><article class="card"><h3>For contributors</h3><p>A living codebase that can grow through focused modules and community feedback.</p></article></div></section>
+      <section id="status"><h2>Development status</h2><p class="section-lede">InflationLab is being developed alongside current research. The Julia solver and notebooks will be released with a tagged, documented version of the associated work.</p><p class="status"><span class="dot"></span> Early public project — code release forthcoming</p></section>
+    </main>
+    <footer><span>InflationLab · Mattia Cielo</span><a href="https://github.com/MattiaCielo/InflationLab.jl">GitHub repository ↗</a></footer>
+  </div>
+</body>
+</html>
